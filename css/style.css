@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.main {
+  background-color: rgba(249, 232, 237, 0.877); }
+  .main__tit-h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-color: #ddeaf5;
+    font-size: 4rem; }
+  .main__arneses {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem; }
+  .main__arnes {
+    border: 1px solid white;
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 2rem; }
+  .main__imgprod {
+    width: 100%;
+    height: 300px;
+    background-color: #f7f7f7; }
+  .main__fotoProd {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  .main__descripcionP {
+    font-size: 25px;
+    text-align: center; }
+  .main__precioProducto {
+    font-size: 20px;
+    text-align: center; }
+  .main__botonComprar {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    background-color: pink;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px; }
+  .main__txtPrin {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-color: #ddeaf5;
+    font-size: 3rem; }
+  .main__txtPrinh3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background-color: rgba(249, 232, 237, 0.877);
+    font-size: 2rem; }
+  .main .row {
+    justify-content: space-between;
+    padding: 2rem; }
+  .main .btn-card {
+    background-color: #5d6271;
+    color: #fff; }
+  .main .card-body {
+    background-color: #dadada; }
+  .main .card {
+    width: 18rem; }
+  .main .grid-bootstrap {
+    background-color: bisque; }
+  .main .grid-bootstrap div {
+    border: 1px solid black; }
+  .main__formContac {
+    background-color: #24303c;
+    width: 400px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 1px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    padding: 30px;
+    box-shadow: 7px 13px 37px #000; }
+  .main__titFormCont {
+    font-size: 22px;
+    margin-bottom: 20px; }
+  .main__controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f531fc5;
+    font-family: 'calibri';
+    font-size: 18px; }
+  .main__coment {
+    padding: 10px; }
+  .main__boton {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 8px; }
+  .main__parrafoForm {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px; }
+    .main__parrafoForm a {
+      color: white;
+      text-decoration: none; }
+
+#conteItemCarrusel {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  background-color: rgba(244, 205, 211, 0.358); }
+
+.itemCarrusel {
+  border: 1px;
+  height: 100%;
+  position: relative; }
+
+.tarjetaCarrusel {
+  width: 100%;
+  height: 100%; }
+
+.flechasCarrusel {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px; }
+
+a {
+  text-decoration: none; }
+
+.imgCarrusel {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; }
+
+.main____ContenedorPaginaInformacion {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  height: 300px; }
+
+.main__itemInfo {
+  display: block;
+  margin: 0 auto;
+  padding: 1rem; }
+
+.main__imgInformacion {
+  width: 100%;
+  height: 300px;
+  object-fit: contain; }
+
+.footer {
+  background-color: pink; }
+  .footer__txtPrin {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  .footer__section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+  .footer__footerBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem; }
+  .footer__defConsu {
+    text-align: center; }
+
+@media screen and (min-width: 768px) {
+  footer section {
+    flex-direction: row;
+    justify-content: space-evenly; } }

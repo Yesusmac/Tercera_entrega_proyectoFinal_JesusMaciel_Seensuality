@@ -1,0 +1,19 @@
+.main {
+    &____ContenedorPaginaInformacion{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        height: 300px;
+    }
+    &__itemInfo {
+        display: block;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+
+    &__imgInformacion {
+        width: 100%;
+        height: 300px;
+        object-fit: contain;}
+}

@@ -1,0 +1,193 @@
+.main {
+    background-color: rgba(249, 232, 237, 0.877);
+
+    //index//
+    &__tit-h1 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        background-color: rgb(221, 234, 245);
+        font-size: 4rem;
+    }
+
+   
+    &__arneses {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    &__arnes {
+        border: 1px solid white;
+        width: 100%;
+        max-width: 200px;
+        margin-bottom: 2rem;
+    }
+
+    &__imgprod {
+        width: 100%;
+        height: 300px;
+        background-color: #f7f7f7;
+    }
+
+    &__fotoProd {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &__descripcionP {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    &__precioProducto {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    &__botonComprar {
+        font-size: 20px;
+        text-align: center;
+        color: black;
+        background-color: pink;
+        width: 100%;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    //Titulos otras pages//
+    &__txtPrin {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        background-color: rgb(221, 234, 245);
+        font-size: 3rem;
+    }
+
+    &__txtPrinh3 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        background-color:  rgba(249, 232, 237, 0.877);
+        font-size: 2rem;
+    }
+    //pages productos
+
+    .row {
+        justify-content: space-between;
+        padding: 2rem;
+    }
+
+    .btn-card {
+        background-color: #5d6271;
+        color: #fff;
+    }
+
+    .card-body {
+        background-color: #dadada;
+    }
+
+    .card {
+        width: 18rem;
+    }
+
+    .grid-bootstrap {
+        background-color: bisque;
+    }
+
+    .grid-bootstrap div {
+        border: 1px solid black;
+    }
+
+    // page información 
+
+    // &__ContenedorPaginaInformacion {
+    //     width: 100%;
+    //     height: 400px;
+
+    // }
+
+    // &__TablaDeTalles {
+    //     width: 100%;
+    //     height: 100%;
+    // }
+
+    // &__pasosParaTupedido {
+    //     width: 100%;
+    //     height: 100%;
+    // }
+
+    // &__tablaTalles {
+    //     // Display: block;
+    //     // Margin: 0 auto;
+    //     // padding: 1rem;
+    //     width: 100%;
+    //     height: 100%;
+    //     object-fit: contain
+    // }
+
+    // &__comoHacertuPedido {
+    //     // Display: block;
+    //     // Margin: 0 auto;
+    //     padding: 0.5rem;
+    //     width: 100%;
+    //     height: 100%;
+    //     object-fit: contain
+    // }
+
+    // pages contactos y  crear cuenta
+
+    &__formContac {
+        background-color: #24303c;
+        width: 400px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 1px;
+        border-radius: 4px;
+        font-family: 'calibri';
+        color: white;
+        padding: 30px;
+        box-shadow: 7px 13px 37px #000;
+    }
+
+    &__titFormCont {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    &__controls {
+        width: 100%;
+        background: #24303c;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid #1f531fc5;
+        font-family: 'calibri';
+        font-size: 18px;
+    }
+
+    &__coment {
+        padding: 10px;
+    }
+
+    &__boton {
+        width: 100%;
+        background: #1f53c5;
+        border: none;
+        padding: 8px;
+    }
+
+    &__parrafoForm {
+        height: 40px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+
+}
