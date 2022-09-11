@@ -1,7 +1,7 @@
 1- Coloque etiqueta keywords en los html:
 index: sensuality, indumentaria femenina, arneses, collares, productos sexys,ofertas
 produtos: sensuality, indumentaria femenina, arneses, collares, cadenas, productos
-información: información, fyq, preguntas, frecuentes, talles, como comprar
+información: información, fyq, preguntas, frecuentes, talles, como comprar, consejos
 crear cuenta: crear, cuenta, registrate
 contacto: contacto, comentario, mensajes, consultas
 

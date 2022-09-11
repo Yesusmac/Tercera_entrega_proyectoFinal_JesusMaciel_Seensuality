@@ -22,7 +22,7 @@
     &__arnes {
         border: 1px solid white;
         width: 100%;
-        max-width: 200px;
+        max-width: 300px;
         margin-bottom: 2rem;
     }
 
@@ -52,7 +52,7 @@
         font-size: 20px;
         text-align: center;
         color: black;
-        background-color: pink;
+        background-color: rgb(243, 174, 186);
         width: 100%;
         padding: 10px;
         border-radius: 20px;
@@ -80,8 +80,8 @@
     }
 
     .btn-card {
-        background-color: #5d6271;
-        color: #fff;
+        color: black;
+        background-color: rgb(243, 174, 186);
     }
 
     .card-body {
@@ -100,43 +100,7 @@
         border: 1px solid black;
     }
 
-    // page información 
-
-    // &__ContenedorPaginaInformacion {
-    //     width: 100%;
-    //     height: 400px;
-
-    // }
-
-    // &__TablaDeTalles {
-    //     width: 100%;
-    //     height: 100%;
-    // }
-
-    // &__pasosParaTupedido {
-    //     width: 100%;
-    //     height: 100%;
-    // }
-
-    // &__tablaTalles {
-    //     // Display: block;
-    //     // Margin: 0 auto;
-    //     // padding: 1rem;
-    //     width: 100%;
-    //     height: 100%;
-    //     object-fit: contain
-    // }
-
-    // &__comoHacertuPedido {
-    //     // Display: block;
-    //     // Margin: 0 auto;
-    //     padding: 0.5rem;
-    //     width: 100%;
-    //     height: 100%;
-    //     object-fit: contain
-    // }
-
-    // pages contactos y  crear cuenta
+      // pages contactos y  crear cuenta
 
     &__formContac {
         background-color: #24303c;
